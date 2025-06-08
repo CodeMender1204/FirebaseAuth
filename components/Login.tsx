@@ -24,7 +24,7 @@ interface LoginScreenProps {
     navigation: any; // You should replace 'any' with the actual type of your navigation object
   }
   GoogleSignin.configure({
-    webClientId: '595173636764-f0o827g6m35os0jpjt1652pj8n7lsqsr.apps.googleusercontent.com',
+    webClientId: googleWebClientId,
   });
   const LoginScreen: React.FC<LoginScreenProps> = ({ navigation }) => {
     const [email, setEmail] = useState('');
