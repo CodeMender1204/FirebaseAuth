@@ -22,7 +22,7 @@ import database from '@react-native-firebase/database'
 import { Button } from 'react-native-paper';
 import { GoogleSignin } from 'react-native-google-signin';
 GoogleSignin.configure({
-    webClientId: '595173636764-f0o827g6m35os0jpjt1652pj8n7lsqsr.apps.googleusercontent.com',
+    webClientId: GoogleWebClientID,
   });
 interface RegisterScreenProps {
     navigation: any; // Replace 'any' with the actual type of your navigation object
